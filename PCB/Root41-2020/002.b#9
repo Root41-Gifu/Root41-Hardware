@@ -1512,7 +1512,7 @@ by exp-lbrs.ulp</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1778" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 </classes>
 <designrules name="SeeedStudio_2layer_DRU_no_angle_20140221 *">
