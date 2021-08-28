@@ -24954,15 +24954,6 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="149.86" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
 <label x="152.4" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="LED-R-5V" class="0">
-<segment>
-<pinref part="TP1" gate="G$1" pin="PP"/>
-<wire x1="149.86" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="152.4" y="73.66" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LED-F-5V" class="0">
 <segment>
 <pinref part="T4" gate="A" pin="D"/>
 <wire x1="220.98" y1="116.84" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
@@ -24972,7 +24963,12 @@ http://www.zetex.com&lt;p&gt;
 <label x="228.6" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED-B-5V" class="0">
+<net name="LED-R-5V" class="0">
+<segment>
+<pinref part="TP1" gate="G$1" pin="PP"/>
+<wire x1="149.86" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="152.4" y="73.66" size="1.778" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="T5" gate="A" pin="D"/>
 <wire x1="220.98" y1="53.34" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
@@ -24982,17 +24978,7 @@ http://www.zetex.com&lt;p&gt;
 <label x="228.6" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED-F" class="0">
-<segment>
-<pinref part="T4" gate="A" pin="S"/>
-<wire x1="210.82" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
-<junction x="208.28" y="116.84"/>
-<label x="195.58" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED-B" class="0">
+<net name="LED-R" class="0">
 <segment>
 <pinref part="T5" gate="A" pin="S"/>
 <wire x1="210.82" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
@@ -25000,6 +24986,16 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="208.28" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
 <junction x="208.28" y="53.34"/>
 <label x="195.58" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED-L" class="0">
+<segment>
+<pinref part="T4" gate="A" pin="S"/>
+<wire x1="210.82" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
+<junction x="208.28" y="116.84"/>
+<label x="195.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
