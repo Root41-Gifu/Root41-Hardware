@@ -10586,7 +10586,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.508" drill="0">
+<class number="0" name="default" width="0.762" drill="0">
 </class>
 <class number="1" name="PWR" width="1.27" drill="0">
 </class>
@@ -11028,12 +11028,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="63.5" y="127" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="10"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="121.92" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
+<label x="129.54" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RX-PC" class="0">
 <segment>
 <wire x1="25.4" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <label x="25.4" y="127" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="9"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="121.92" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<label x="129.54" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -11114,6 +11124,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="109.22" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
 <label x="111.76" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="91.44" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+<label x="76.2" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D-" class="0">
 <segment>
@@ -11143,32 +11158,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="215.9" y="63.5"/>
 </segment>
 </net>
-<net name="RX" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="121.92" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
-<label x="129.54" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TX" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="121.92" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
-<label x="129.54" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="RESET" class="0">
 <segment>
 <pinref part="TP5" gate="G$1" pin="TP"/>
 <wire x1="91.44" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <label x="76.2" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCK" class="0">
-<segment>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="91.44" y1="45.72" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-<label x="76.2" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

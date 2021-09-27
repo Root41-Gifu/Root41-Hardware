@@ -1875,18 +1875,6 @@ design rules under a new name.</description>
 <contactref element="LED14" pad="3-GND"/>
 <contactref element="T12" pad="E"/>
 <contactref element="T13" pad="E"/>
-<polygon width="0.01" layer="16">
-<vertex x="-39" y="-103"/>
-<vertex x="39" y="-103"/>
-<vertex x="39" y="-29"/>
-<vertex x="-39" y="-29"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-39" y="-103"/>
-<vertex x="-39" y="-29"/>
-<vertex x="39" y="-29"/>
-<vertex x="39" y="-103"/>
-</polygon>
 <wire x1="-26.63293125" y1="-93.840821875" x2="-30.64518125" y2="-90.852459375" width="0" layer="19" extent="16-16"/>
 <wire x1="-19.258784375" y1="-93.929234375" x2="-26.63293125" y2="-93.840821875" width="0" layer="19" extent="16-16"/>
 <wire x1="-14.84241875" y1="-96.389609375" x2="-19.258784375" y2="-93.929234375" width="0" layer="19" extent="16-16"/>

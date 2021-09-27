@@ -22571,7 +22571,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="TO220S" urn="urn:adsk.eagle:footprint:30310/1" library_version="5">
+<package name="78XXS" urn="urn:adsk.eagle:footprint:30278/1" library_version="5">
 <description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
 <wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
 <wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
@@ -22579,14 +22579,14 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
 <circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-5.9182" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<pad name="IN" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">3</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">-</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
 <rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
 <rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
 <rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
@@ -22600,48 +22600,48 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 </package>
 </packages>
 <packages3d>
-<package3d name="TO220S" urn="urn:adsk.eagle:package:30366/1" type="box" library_version="5">
+<package3d name="78XXS" urn="urn:adsk.eagle:package:30342/1" type="box" library_version="5">
 <description>VOLTAGE REGULATOR</description>
 <packageinstances>
-<packageinstance name="TO220S"/>
+<packageinstance name="78XXS"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="78ADJ" urn="urn:adsk.eagle:symbol:30281/1" library_version="5">
+<symbol name="78XX" urn="urn:adsk.eagle:symbol:30277/1" library_version="5">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
 <text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">ADJ</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
 <text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
-<text x="0.127" y="-0.635" size="1.524" layer="95">OUT</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
-<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LM138-TS" urn="urn:adsk.eagle:component:30412/2" prefix="IC" uservalue="yes" library_version="5">
+<deviceset name="78XXS" urn="urn:adsk.eagle:component:30381/2" prefix="IC" uservalue="yes" library_version="5">
 <description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
+<gate name="1" symbol="78XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO220S">
+<device name="" package="78XXS">
 <connects>
-<connect gate="G$1" pin="ADJ" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="1" pin="GND" pad="GND"/>
+<connect gate="1" pin="IN" pad="IN"/>
+<connect gate="1" pin="OUT" pad="OUT"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30366/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30342/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="POPULARITY" value="18" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23203,7 +23203,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="X2" library="con-JST PH" deviceset="B3B-PH" device="-K-S"/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM138-TS" device="" package3d_urn="urn:adsk.eagle:package:30366/1"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3296W" package3d_urn="urn:adsk.eagle:package:26033/1" value="20k"/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33k"/>
@@ -23235,6 +23234,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="Q1" library="Q" deviceset="TO-252-NCH" device=""/>
+<part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -23563,10 +23563,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <instance part="P+20" gate="1" x="99.06" y="119.38" smashed="yes">
 <attribute name="VALUE" x="101.6" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="27.94" y="35.56" smashed="yes">
-<attribute name="NAME" x="30.48" y="27.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="25.4" size="1.778" layer="96"/>
-</instance>
 <instance part="R17" gate="G$1" x="116.84" y="30.48" smashed="yes">
 <attribute name="NAME" x="119.38" y="27.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="119.38" y="25.4" size="1.778" layer="96"/>
@@ -23602,6 +23598,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <instance part="SJ4" gate="G$1" x="99.06" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="96.52" y="83.439" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="96.52" y="85.725" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC2" gate="1" x="27.94" y="35.56" smashed="yes">
+<attribute name="NAME" x="30.48" y="27.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="25.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23728,7 +23728,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <segment>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="ADJ"/>
+<pinref part="IC2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
@@ -23935,7 +23935,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="40.64" y1="33.02" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <junction x="40.64" y="35.56"/>
 <pinref part="C14" gate="G$1" pin="+"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="IC2" gate="1" pin="OUT"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
@@ -24500,7 +24500,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="33.02" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <junction x="15.24" y="35.56"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="IC2" gate="1" pin="IN"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>

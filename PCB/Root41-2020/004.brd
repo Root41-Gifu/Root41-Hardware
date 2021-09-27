@@ -251,6 +251,7 @@
 <wire x1="-25.8589" y1="-30.517490625" x2="25.858903125" y2="-30.51749375" width="0.01" layer="20" curve="80.552339"/>
 <circle x="-33.87868125" y="-38.12131875" radius="1.1" width="0.01" layer="20"/>
 <circle x="-33.159959375" y="-84.743240625" radius="1.1" width="0.01" layer="20"/>
+<text x="-5.2" y="-43" size="1.27" layer="21" font="vector">JLCJLCJLCJLC</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1735,20 +1736,12 @@ design rules under a new name.</description>
 <element name="LED14" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-20.203" y="-39.65" smashed="yes" rot="MR207"/>
 <element name="LED2" library="microbuilder" package="WS2812B" value="WS2812B5050" x="22.019" y="-94.981" smashed="yes" rot="MR346.9"/>
 <element name="LED3" library="microbuilder" package="WS2812B" value="WS2812B5050" x="10.192" y="-96.966" smashed="yes" rot="MR354"/>
-<element name="LED4" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-10.192" y="-96.966" smashed="yes" rot="MR6">
-<attribute name="NAME" x="-13.499425" y="-95.022128125" size="0.8128" layer="26" ratio="10" rot="MR276"/>
-</element>
-<element name="LED5" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-22.019" y="-94.981" smashed="yes" rot="MR13.1">
-<attribute name="NAME" x="-25.0608" y="-92.64323125" size="0.8128" layer="26" ratio="10" rot="MR283.1"/>
-</element>
-<element name="LED6" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-33.513" y="-91.56" smashed="yes" rot="MR20.1">
-<attribute name="NAME" x="-36.247225" y="-88.86895625" size="0.8128" layer="26" ratio="10" rot="MR290.1"/>
-</element>
+<element name="LED4" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-10.192" y="-96.966" smashed="yes" rot="MR6"/>
+<element name="LED5" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-22.019" y="-94.981" smashed="yes" rot="MR13.1"/>
+<element name="LED6" library="microbuilder" package="WS2812B" value="WS2812B5050" x="-33.513" y="-91.56" smashed="yes" rot="MR20.1"/>
 <element name="LED7" library="microbuilder" package="WS2812B" value="WS2812B5050" x="0" y="-91.214" smashed="yes" rot="MR270"/>
 <element name="LED8" library="microbuilder" package="WS2812B" value="WS2812B5050" x="0" y="-78.463" smashed="yes" rot="MR270"/>
-<element name="LED9" library="microbuilder" package="WS2812B" value="WS2812B5050" x="0" y="-66.071" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-1.5875" y="-69.5635" size="0.8128" layer="26" ratio="10" rot="MR180"/>
-</element>
+<element name="LED9" library="microbuilder" package="WS2812B" value="WS2812B5050" x="0" y="-66.071" smashed="yes" rot="MR270"/>
 <element name="P1" library="zh" package="ZH-SM4-SIDE09" value="" x="8.863" y="-41.24" smashed="yes"/>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k" x="0" y="-82" smashed="yes">
 <attribute name="POPULARITY" value="86" x="35.56" y="-94.7" size="1.778" layer="27" display="off"/>
@@ -1799,14 +1792,8 @@ design rules under a new name.</description>
 <element name="T11" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="0" y="-44.5" smashed="yes" rot="MR180"/>
 <element name="T2" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="16.095" y="-96.18" smashed="yes" rot="MR170.5"/>
 <element name="T3" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="0" y="-97.5" smashed="yes" rot="MR180"/>
-<element name="T4" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-16.095" y="-96.18" smashed="yes" rot="MR189.5">
-<attribute name="NAME" x="-14.27900625" y="-96.8701875" size="1.27" layer="26" ratio="10" rot="MR189.5"/>
-<attribute name="VALUE" x="-13.94363125" y="-94.86605625" size="1.27" layer="28" ratio="10" rot="MR189.5"/>
-</element>
-<element name="T5" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-27.85" y="-93.478" smashed="yes" rot="MR196.6">
-<attribute name="NAME" x="-26.1332375" y="-94.387353125" size="1.27" layer="26" ratio="10" rot="MR196.6"/>
-<attribute name="VALUE" x="-25.552721875" y="-92.44004375" size="1.27" layer="28" ratio="10" rot="MR196.6"/>
-</element>
+<element name="T4" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-16.095" y="-96.18" smashed="yes" rot="MR189.5"/>
+<element name="T5" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-27.85" y="-93.478" smashed="yes" rot="MR196.6"/>
 <element name="T6" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-0.18" y="-85" smashed="yes" rot="MR180"/>
 <element name="T7" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="0" y="-72.375" smashed="yes" rot="MR180"/>
 <element name="T8" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="0" y="-59.803" smashed="yes" rot="MR180"/>
@@ -2867,10 +2854,10 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFF0F0F0"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>

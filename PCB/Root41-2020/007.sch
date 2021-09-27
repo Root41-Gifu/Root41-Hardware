@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10622,13 +10622,6 @@ Source:
 <wire x1="38.1" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK\" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
-<wire x1="86.36" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
-<label x="88.9" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB4(MISO)"/>
@@ -10975,6 +10968,11 @@ Source:
 <wire x1="215.9" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <label x="200.66" y="78.74" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="3"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
+<wire x1="86.36" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<label x="88.9" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EMERGENCY_T1" class="0">
@@ -11469,7 +11467,7 @@ Source:
 <wire x1="38.1" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK\" class="0">
+<net name="SCK" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="86.36" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>

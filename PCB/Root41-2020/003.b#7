@@ -1424,6 +1424,89 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
+<library name="oshw">
+<description>&lt;p&gt;&lt;strong&gt;Open Source Hardware PCB Logos&lt;/strong&gt;
+&lt;p&gt;A simple polygon based version of the OSHWA logos for use on Eagle PCB's
+&lt;p&gt;For use please refer to the OSHWA definition at &lt;a href="http://www.oshwa.org/definition/"&gt;http://www.oshwa.org/definition/&lt;/a&gt;
+&lt;p&gt;Based on the NBitWonder version (&lt;a href="http://nbitwonder.com"&gt;http://nbitwonder.com&lt;/a&gt;)
+&lt;p&gt;&lt;strong&gt;Andrew Cooper&lt;/strong&gt;&lt;br&gt;28Nov2016&lt;br&gt;&lt;a href="http://www.darkerview.com"&gt;www.DarkerView.com&lt;/a&gt;</description>
+<packages>
+<package name="OSHW_5MM">
+<polygon width="0.0508" layer="25">
+<vertex x="-0.2413" y="-0.6096" curve="-160.717601"/>
+<vertex x="0" y="0.6604" curve="-152.950596"/>
+<vertex x="0.2794" y="-0.6096"/>
+<vertex x="0.6731" y="-1.6002"/>
+<vertex x="0.8255" y="-1.5367"/>
+<vertex x="0.9779" y="-1.4351"/>
+<vertex x="1.4859" y="-1.7907"/>
+<vertex x="1.5875" y="-1.7018"/>
+<vertex x="1.6764" y="-1.6129"/>
+<vertex x="1.778" y="-1.4986"/>
+<vertex x="1.8669" y="-1.3843"/>
+<vertex x="1.4986" y="-0.8509"/>
+<vertex x="1.5875" y="-0.6985"/>
+<vertex x="1.6383" y="-0.5461"/>
+<vertex x="1.6891" y="-0.3429"/>
+<vertex x="2.3114" y="-0.2286"/>
+<vertex x="2.3114" y="-0.0508"/>
+<vertex x="2.3114" y="0.0635"/>
+<vertex x="2.2987" y="0.2032"/>
+<vertex x="2.286" y="0.3302"/>
+<vertex x="1.6637" y="0.4445"/>
+<vertex x="1.6129" y="0.6096"/>
+<vertex x="1.5494" y="0.7493"/>
+<vertex x="1.4605" y="0.9017"/>
+<vertex x="1.4478" y="0.9271"/>
+<vertex x="1.8034" y="1.4224"/>
+<vertex x="1.7018" y="1.5494"/>
+<vertex x="1.5748" y="1.6764"/>
+<vertex x="1.4732" y="1.7653"/>
+<vertex x="1.3843" y="1.8288"/>
+<vertex x="0.8636" y="1.4605"/>
+<vertex x="0.7493" y="1.524"/>
+<vertex x="0.635" y="1.5748"/>
+<vertex x="0.5207" y="1.6256"/>
+<vertex x="0.4064" y="1.651"/>
+<vertex x="0.2921" y="2.2733"/>
+<vertex x="0.1397" y="2.286"/>
+<vertex x="-0.0381" y="2.286"/>
+<vertex x="-0.1524" y="2.286"/>
+<vertex x="-0.2794" y="2.2733"/>
+<vertex x="-0.381" y="1.6637"/>
+<vertex x="-0.5715" y="1.6002"/>
+<vertex x="-0.6985" y="1.5494"/>
+<vertex x="-0.8763" y="1.4478"/>
+<vertex x="-1.3843" y="1.8161"/>
+<vertex x="-1.4986" y="1.7272"/>
+<vertex x="-1.6256" y="1.6002"/>
+<vertex x="-1.7272" y="1.4859"/>
+<vertex x="-1.7907" y="1.4224"/>
+<vertex x="-1.4351" y="0.9017"/>
+<vertex x="-1.5113" y="0.7747"/>
+<vertex x="-1.5875" y="0.6096"/>
+<vertex x="-1.6256" y="0.4699"/>
+<vertex x="-1.6637" y="0.381"/>
+<vertex x="-2.286" y="0.2794"/>
+<vertex x="-2.286" y="-0.2794"/>
+<vertex x="-1.6637" y="-0.381"/>
+<vertex x="-1.6129" y="-0.5588"/>
+<vertex x="-1.5748" y="-0.6858"/>
+<vertex x="-1.524" y="-0.7874"/>
+<vertex x="-1.4351" y="-0.9398"/>
+<vertex x="-1.8034" y="-1.4478"/>
+<vertex x="-1.7018" y="-1.5621"/>
+<vertex x="-1.6129" y="-1.651"/>
+<vertex x="-1.4986" y="-1.7526"/>
+<vertex x="-1.4097" y="-1.8288"/>
+<vertex x="-0.889" y="-1.4732"/>
+<vertex x="-0.5969" y="-1.6256"/>
+</polygon>
+<text x="2.921" y="-2.032" size="0.762" layer="25" rot="R180">open source
+  hardware</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1676,11 +1759,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="86" x="-50.79" y="-9.7" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-50.79" y="-9.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="T1" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-97.5" y="0" smashed="yes" rot="MR0"/>
+<element name="T1" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-97.5" y="0" smashed="yes" rot="MR180"/>
 <element name="T10" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-42.258" y="13.73" smashed="yes" rot="MR288"/>
 <element name="T11" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-35.947" y="26.117" smashed="yes" rot="MR306"/>
-<element name="T2" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-96.179" y="-15.995" smashed="yes" rot="MR0"/>
-<element name="T3" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-93.521" y="-27.571" smashed="yes" rot="MR0"/>
+<element name="T2" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-96.179" y="-15.995" smashed="yes" rot="MR170.6"/>
+<element name="T3" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-93.521" y="-27.571" smashed="yes" rot="MR163.6"/>
 <element name="T4" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-85.083" y="0" smashed="yes" rot="MR180"/>
 <element name="T5" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-72.667" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-70.762" y="-0.381" size="1.27" layer="26" ratio="10" rot="MR180"/>
@@ -1690,27 +1773,28 @@ design rules under a new name.</description>
 <element name="T8" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-42.258" y="-13.73" smashed="yes" rot="MR252"/>
 <element name="T9" library="#001-line" package="MYPARTS_NJL7502L" value="NJL7502L" x="-44.5" y="0" smashed="yes" rot="MR270"/>
 <element name="U$1" library="Analog-Digital-Mux-Breakout" package="SPARKFUN_SSOP24" value="74HC4067" x="-72.667" y="0" smashed="yes" rot="R270"/>
+<element name="U$2" library="oshw" package="OSHW_5MM" value="" x="-97" y="7" smashed="yes"/>
 </elements>
 <signals>
 <signal name="IN0">
 <contactref element="U$1" pad="9"/>
 <contactref element="T1" pad="C"/>
 <contactref element="R5" pad="2"/>
-<wire x1="-93" y1="0.95" x2="-96.23" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="-93" y1="0.95" x2="-98.77" y2="0" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.323" y1="-1.625" x2="-93" y2="0.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN1">
 <contactref element="U$1" pad="8"/>
 <contactref element="T2" pad="C"/>
 <contactref element="R6" pad="2"/>
-<wire x1="-90" y1="0.95" x2="-94.909" y2="-15.995" width="0" layer="19" extent="1-1"/>
+<wire x1="-90" y1="0.95" x2="-97.431946875" y2="-16.202421875" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.323" y1="-0.975" x2="-90" y2="0.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN2">
 <contactref element="U$1" pad="7"/>
 <contactref element="T3" pad="C"/>
 <contactref element="R7" pad="2"/>
-<wire x1="-79.05" y1="-3" x2="-92.251" y2="-27.571" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.05" y1="-3" x2="-94.73933125" y2="-27.929571875" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.323" y1="-0.325" x2="-79.05" y2="-3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN3">
@@ -1823,12 +1907,12 @@ design rules under a new name.</description>
 <vertex x="-103" y="-39"/>
 <vertex x="-103" y="37"/>
 </polygon>
-<wire x1="-94.791" y1="-27.571" x2="-94.08840625" y2="-31.37491875" width="0" layer="19" extent="16-16"/>
-<wire x1="-97.175321875" y1="-19.833196875" x2="-94.791" y2="-27.571" width="0" layer="19" extent="16-16"/>
-<wire x1="-97.449" y1="-15.995" x2="-97.175321875" y2="-19.833196875" width="0" layer="19" extent="16-16"/>
-<wire x1="-98.85900625" y1="-8.01020625" x2="-97.449" y2="-15.995" width="0" layer="19" extent="16-16"/>
-<wire x1="-98.77" y1="0" x2="-98.85900625" y2="-8.01020625" width="0" layer="19" extent="16-16"/>
-<wire x1="-93.736" y1="-1.65" x2="-98.77" y2="0" width="0" layer="19" extent="16-16"/>
+<wire x1="-92.302671875" y1="-27.212425" x2="-94.08840625" y2="-31.37491875" width="0" layer="19" extent="16-16"/>
+<wire x1="-97.175321875" y1="-19.833196875" x2="-92.302671875" y2="-27.212425" width="0" layer="19" extent="16-16"/>
+<wire x1="-94.92605625" y1="-15.787575" x2="-97.175321875" y2="-19.833196875" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.85900625" y1="-8.01020625" x2="-94.92605625" y2="-15.787575" width="0" layer="19" extent="16-16"/>
+<wire x1="-93.736" y1="-1.65" x2="-98.85900625" y2="-8.01020625" width="0" layer="19" extent="16-16"/>
+<wire x1="-96.23" y1="0" x2="-93.736" y2="-1.65" width="0" layer="19" extent="16-16"/>
 <wire x1="-83.813" y1="0" x2="-93.736" y2="-1.65" width="0" layer="19" extent="16-16"/>
 <wire x1="-81.307" y1="-1.65" x2="-83.813" y2="0" width="0" layer="19" extent="16-16"/>
 <wire x1="-76.323" y1="-3.575" x2="-81.307" y2="-1.65" width="0" layer="19" extent="1-16"/>
@@ -1847,7 +1931,7 @@ design rules under a new name.</description>
 <wire x1="-42.650453125" y1="12.52215625" x2="-45.198421875" y2="9.638953125" width="0" layer="19" extent="16-16"/>
 <wire x1="-40.007884375" y1="23.13505" x2="-42.650453125" y2="12.52215625" width="0" layer="19" extent="16-16"/>
 <wire x1="-36.6934875" y1="25.089546875" x2="-40.007884375" y2="23.13505" width="0" layer="19" extent="16-16"/>
-<wire x1="-98.35086875" y1="12.80105" x2="-98.77" y2="0" width="0" layer="19" extent="16-16"/>
+<wire x1="-98.35086875" y1="12.80105" x2="-96.23" y2="0" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U$1" pad="24"/>
@@ -1999,6 +2083,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
