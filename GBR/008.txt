@@ -1,0 +1,66 @@
+Partlist exported from /Users/Shirokuma89/Documents/Root41/Root41-Hardware/PCB/Root41-2020/008.sch at 2021/09/04 13:39
+
+Part  Value          Device                Package            Description                                    MF MPN          OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX TP_SIGNAL_NAME
+C1    0.1μ           C-EUC1608             C1608              CAPACITOR, European symbol                                                          3          C                         
+C2    0.1μ           C-EUC1608             C1608              CAPACITOR, European symbol                                                          3          C                         
+C3    0.1μ           C-EUC1608             C1608              CAPACITOR, European symbol                                                          3          C                         
+CN1                  S2B-PH-SM4-TB         S2B-PH-SM4-TB      Wire-to-Board 2.0mm pitch side mount connector                                                                           
+IC1   MEGA8-AI       MEGA8-AI              TQFP32-08          MICROCONTROLLER                                   ATMEGA8-16AU 9171371    73M8863   11                                   
+IRM1  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM2  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM3  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM4  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM5  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM6  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM7  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM8  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM9  IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM10 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM11 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM12 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM13 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM14 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM15 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+IRM16 IRM-3638N3     MYPARTS_IRM_3633N3IRM MYPARTS_IRM_3633N3                                                                                                                          
+LED1  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED2  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED3  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED4  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED5  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED6  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED7  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED8  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED9  WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED10 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED11 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED12 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED13 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED14 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED15 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+LED16 WS2812B5050    WS2812B5050           WS2812B                                                                                                                                     
+P1    S6B-ZR-SM4A-TF S6B-ZR-SM4A-TF        ZH-SM4-SIDE06                                                                                                                               
+Q1    BSS84          BSS84                 SOT23              P-CHANNEL MOS FET                                                                   8                                    
+R1    33k            R-EU_R0603            R0603              RESISTOR, European symbol                                                           70         R                         
+R2    33k            R-EU_R0603            R0603              RESISTOR, European symbol                                                           70         R                         
+R3    33k            R-EU_R0603            R0603              RESISTOR, European symbol                                                           70         R                         
+R4    47             R-EU_R0603            R0603              RESISTOR, European symbol                                                           70         R                         
+SJ1                  SJ2W                  SJ_2               SMD solder JUMPER                                                                   7                                    
+SV1                  ML20                  ML20               HARTING                                                        unknown    unknown   0                                    
+TP1   TPSQTP10SQ     TPSQTP10SQ            TP10SQ             Test pad                                                                            0                                    
+TP2   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP3   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP4   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP5   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP6   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP7   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP8   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP9   TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP10  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP11  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP12  TPSQTP10SQ     TPSQTP10SQ            TP10SQ             Test pad                                                                            0                                    
+TP13  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP14  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP15  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP16  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP17  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    
+TP18  TPSQTP10R      TPSQTP10R             TP10R              Test pad                                                                            0                                    

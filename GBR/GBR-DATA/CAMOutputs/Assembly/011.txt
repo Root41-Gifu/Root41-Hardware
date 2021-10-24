@@ -1,0 +1,9 @@
+Partlist exported from /Users/Shirokuma89/Documents/Root41/Root41-Hardware/PCB/Root41-2020/011.sch at 2021/08/29 17:28
+
+Qty Value                        Device                       Package                          Parts                                            Description                POPULARITY SPICEPREFIX TP_SIGNAL_NAME
+1   0.1μ                         C-EUC0603                    C0603                            C2                                               CAPACITOR, European symbol 73         C                         
+1   1μ                           C-EUC0603                    C0603                            C1                                               CAPACITOR, European symbol 73         C                         
+2   33k                          R-EU_R0603                   R0603                            R1, R2                                           RESISTOR, European symbol  70         R                         
+1   ATTINY25_45_85_ATTINY85V-10S ATTINY25_45_85_ATTINY85V-10S ATTINY25_45_85_SOIC8_EIAJ_208MIL U1                                               ATMEL ATtiny 85                                                 
+9   TPSQTP11R                    TPSQTP11R                    TP11R                            TP1, TP3, TP4, TP6, TP13, TP15, TP16, TP17, TP18 Test pad                   0                                    
+3   TPSQTP11SQ                   TPSQTP11SQ                   TP11SQ                           TP2, TP5, TP14                                   Test pad                   0                                    
